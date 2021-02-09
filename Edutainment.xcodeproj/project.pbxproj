@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2212E7FB25CFFB65008415E2 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212E7FA25CFFB65008415E2 /* Questions.swift */; };
+		221AE64025CE0EE100C188F4 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AE63F25CE0EE100C188F4 /* TopBar.swift */; };
+		221AE64425CEEE7E00C188F4 /* QuestionQuantityStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AE64325CEEE7E00C188F4 /* QuestionQuantityStepper.swift */; };
 		225BA93725CDE91C005C442E /* EdutainmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BA93625CDE91C005C442E /* EdutainmentApp.swift */; };
 		225BA93925CDE91C005C442E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BA93825CDE91C005C442E /* ContentView.swift */; };
 		225BA93B25CDE91E005C442E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225BA93A25CDE91E005C442E /* Assets.xcassets */; };
 		225BA93E25CDE91E005C442E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225BA93D25CDE91E005C442E /* Preview Assets.xcassets */; };
+		225BA94725CDEB17005C442E /* AgeStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225BA94625CDEB17005C442E /* AgeStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2212E7FA25CFFB65008415E2 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		221AE63F25CE0EE100C188F4 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		221AE64325CEEE7E00C188F4 /* QuestionQuantityStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionQuantityStepper.swift; sourceTree = "<group>"; };
 		225BA93325CDE91C005C442E /* Edutainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edutainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225BA93625CDE91C005C442E /* EdutainmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdutainmentApp.swift; sourceTree = "<group>"; };
 		225BA93825CDE91C005C442E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		225BA93A25CDE91E005C442E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225BA93D25CDE91E005C442E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		225BA93F25CDE91E005C442E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225BA94625CDEB17005C442E /* AgeStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221AE64225CEEE6500C188F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				225BA94625CDEB17005C442E /* AgeStepper.swift */,
+				221AE63F25CE0EE100C188F4 /* TopBar.swift */,
+				221AE64325CEEE7E00C188F4 /* QuestionQuantityStepper.swift */,
+				2212E7FA25CFFB65008415E2 /* Questions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		225BA92A25CDE91C005C442E = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +71,7 @@
 		225BA93525CDE91C005C442E /* Edutainment */ = {
 			isa = PBXGroup;
 			children = (
+				221AE64225CEEE6500C188F4 /* Views */,
 				225BA93625CDE91C005C442E /* EdutainmentApp.swift */,
 				225BA93825CDE91C005C442E /* ContentView.swift */,
 				225BA93A25CDE91E005C442E /* Assets.xcassets */,
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225BA94725CDEB17005C442E /* AgeStepper.swift in Sources */,
+				221AE64425CEEE7E00C188F4 /* QuestionQuantityStepper.swift in Sources */,
 				225BA93925CDE91C005C442E /* ContentView.swift in Sources */,
+				2212E7FB25CFFB65008415E2 /* Questions.swift in Sources */,
 				225BA93725CDE91C005C442E /* EdutainmentApp.swift in Sources */,
+				221AE64025CE0EE100C188F4 /* TopBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
